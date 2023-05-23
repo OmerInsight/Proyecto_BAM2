@@ -1,0 +1,96 @@
+/* Configuraciones del body */
+* {
+    /* Paleta de Colores #4B3869, #664E88, #63B4B8, #A9E4D7, #00FFCA */
+}
+
+/* Configuraciones de la barra de Navegacion */
+
+header {
+    width: 100%;
+}
+
+.container-nav {
+    /* cambiar el backgroun clor por una imagen y luego
+    con el diseño respinsivo colocar el color */
+    background-color: #4B3869;
+    display: flex;
+    padding: 20px;
+    height: 50px;
+    max-width: 1920px;
+    margin: auto;
+    padding: 30px;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    
+}
+
+li {
+    color: #A9E4D7;
+    list-style-type: none;
+}
+
+li>a {
+    padding: 8px 24px;
+    color: #A9E4D7;
+}
+
+li:hover {
+    color: #00FFCA;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+
+.brand {
+    color: #A9E4D7;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.brand:hover {
+    color: #00FFCA;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.button-menu-toggle {
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00FFCA;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}  
+
+
