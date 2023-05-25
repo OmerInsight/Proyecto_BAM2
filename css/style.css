@@ -1,4 +1,3 @@
-/* Configuraciones del body */
 /* Paleta de Colores #4B3869, #664E88, #63B4B8, #A9E4D7, #00FFCA */
 
 /* Configuraciones Generales */
@@ -7,7 +6,7 @@ body {
     color: #323132;
 }
 
-button{
+button {
     font-family: 'Wix Madefor Display', sans-serif;
 }
 
@@ -15,12 +14,17 @@ button{
 
 header {
     width: 100%;
+    height: 30vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: 100%;
+
 }
 
 .container-nav {
     /* cambiar el background clor por una imagen y luego
     con el diseño respinsivo colocar el color */
-    background-color: #4B3869;
     display: flex;
     padding: 20px;
     height: 50px;
@@ -29,6 +33,8 @@ header {
     padding: 30px;
     font-family: 'Wix Madefor Display', sans-serif;
     font-size: 20px;
+
+
 }
 
 .navbar {
@@ -36,6 +42,7 @@ header {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+
 
 }
 
@@ -48,11 +55,13 @@ header {
 li {
     color: #A9E4D7;
     list-style-type: none;
+
 }
 
 li>a {
     padding: 8px 24px;
     color: #A9E4D7;
+
 }
 
 li:hover {
@@ -104,11 +113,17 @@ a:hover {
 /* Configuraciones de Responsive Dising */
 
 @media (max-width: 720px) {
+    header {
+        background-image: none;
+        height: 90px;
+    }
+
     .container-nav {
+        background-color: #4B3869;
         display: flex;
         padding: 20px;
         height: 50px;
-        background-color: #4B3869;
+
     }
 
     .column {
@@ -124,7 +139,6 @@ a:hover {
     .button-menu-toggle {
         display: block;
         background-color: #00FFCA;
-        ;
         border: none;
         border-radius: 50px;
         padding: 0 24px;
@@ -153,8 +167,8 @@ a:hover {
 }
 
 /* CONFIGURACIONES DE TITULOS DE PARRAFOS */
-h3{
-    color:#664E88;
+h3 {
+    color: #664E88;
     margin-top: 45px;
 }
 
@@ -173,7 +187,7 @@ P {
 
 .ocultar {
     display: none;
-    }
+}
 
 .show {
     display: block;
@@ -198,4 +212,39 @@ P {
     background-color: black;
     color: #fff;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3.05s;
+}
+
+/* CONFIGURACIONES DE PAGINA ""QUIENES SOMOS */
+
+.q_somos {
+    display: flex;
+
+}
+
+.integrantes {
+    margin-top: 7%;
+    flex: 1;
+    position: relative;
+
+}
+
+.integrantes img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.integrantes p {
+    position: absolute;
+    bottom: -25px;
+    left: 30%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    color: #4B3869;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
 }
