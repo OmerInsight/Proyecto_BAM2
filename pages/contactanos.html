@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal de Acceso Financiero.com</title>
+    <title>Contactanos</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Fuentes (tipografias) -->
@@ -14,8 +14,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Wix+Madefor+Display:wght@400;700&family=Work+Sans:ital,wght@0,100;0,500;1,100;1,300&display=swap"
         rel="stylesheet">
+    <!-- Importar la biblioteca Tooltipster -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tooltipster/dist/css/tooltipster.bundle.min.css">
+</head>
 
-<body>
+<body style="background-image: url(../img/backgroun-body\ service.jfif);">
     <!-- Barra de Navegacion de la pagina -->
     <header style="background-image: url(../img/Background_portada_2x.png);">
         <div class="container-nav">
@@ -30,15 +33,50 @@
             <button class="button-menu-toggle">Menu</button>
         </div>
     </header>
-    
-    
+    <div>
+        <!--Formulario de Servicio-->
+        <h1 class="titulo-servicio">Estamos atentos a tus dudas</h1>
+
+        <section style="background-image: url(
+            ../img/Formulario-contactox.png
+        );" class="formulario-servicio">
+            <div class="form-tooltip">
+                <legend>Escríbenos y en 24hrs te contestaremos tu consulta:</legend>
+
+
+
+                <input class="input-servicios" name="nombre" type="text" id="nombre-servicio"
+                    placeholder="INGRESA TU NOMBRE" >
+                <input class="input-servicios" name="nombre" type="text" id="nombre-servicio"
+                    placeholder="INGRESA TU APELLIDO">
+                <input class="input-servicios" name="nombre" type="email" id="nombre-servicio"
+                    placeholder="INGRESA TU MAIL">
+
+
+
+                <textarea name="comentario" cols="40" placeholder="Escribe tu consulta:" rows="10"
+                    style="color: #00FFCA;"></textarea>
+                <br>
+
+                <button class="boton-servicios">Enviar</button>
+            </div>
+        </section>
+    </div>
+
     <script src="../script/script.js"></script>
 </body>
 <footer>
-    &copy; 2023 Acceso Financiero Group.    |   Política de cookies   |   Aviso legal
-Síguenos en Linkedin
-
-Tel. +34 915 716 594  •  hola@finout.es  •   Síguenos en LinkedIn
-
-¿Hablamos? Contáctanos en hola@finout.es o reserva tu sesión de 15 minutos con uno de nuestros expertos aquí.   
+    <div class="container-footer">
+        <div class="elements-footer">
+            &copy; 2023 Acceso Financiero Group. | Política de cookies | Aviso legal
+            Síguenos en Linkedin
+        </div >
+        <div class="elements-footer">
+            Tel. +5411990000 • hola@accesofinanciero.es • Síguenos en LinkedIn
+        </div >
+        <div class="elements-footer">
+            ¿Hablamos? Contáctanos en hola@accesofinanciero.es o reserva tu sesión de 15 minutos con uno de nuestros expertos
+            aquí.
+        </div>
+    </div>
 </footer>

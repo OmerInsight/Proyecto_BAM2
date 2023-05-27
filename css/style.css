@@ -257,9 +257,9 @@ P {
 
 }
 
-/* CONFIGURACIONES DE PAGINA "SERVICIOS"*/
+/* CONFIGURACIONES DE PAGINA "SERVICIOS" y ademas estas configuraciones
+son la base del formulario de la pagina CONTACTANOS*/
 .formulario-servicio {
-    /* fixed: afregar un background con iconos de finanza fondo blancvco figuras frises o color de la marca */
     background-image: url(/img/Formulario-servicios.jpg);
     width: 400px;
     background-color: #4B3869;
@@ -361,3 +361,20 @@ textarea {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
+::placeholder{
+    color: rgba(0, 255, 202, 0.5);
+}
+
+/* CONFIGURACIONES DE PAGINA "FOOTER"*/
+footer{
+    font-family: 'Wix Madefor Display', sans-serif;
+    color: #A9E4D7;
+    background-color: rgba(75, 56, 105, 0.8);
+    padding: 3%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.elements-footer{
+    padding: 7px;
+}
