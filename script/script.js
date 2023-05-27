@@ -18,3 +18,6 @@ function toggleText() {
         ocultar_texto_btn.innerHTML = "Seguir leyendo";
     }
 }
+
+// CONFIGURACIONES DE PAGINA DE SERVICIOS 
+

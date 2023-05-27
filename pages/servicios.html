@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal de Acceso Financiero.com</title>
+    <title>Servicos</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Fuentes (tipografias) -->
@@ -14,6 +14,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Wix+Madefor+Display:wght@400;700&family=Work+Sans:ital,wght@0,100;0,500;1,100;1,300&display=swap"
         rel="stylesheet">
+    <!-- Importar la biblioteca Tooltipster -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tooltipster/dist/css/tooltipster.bundle.min.css">
+</head>
 
 <body>
     <!-- Barra de Navegacion de la pagina -->
@@ -31,19 +34,52 @@
         </div>
     </header>
     <div>
-        <p>
-            Cualquien parrafo
-        </p>
+        <!--Formulario de Servicio-->
+        <h1 class="titulo-servicio">Conoce tu nivel Financiero</h1>
+
+        <section class="formulario-servicio">
+            <div class="form-tooltip">
+                <legend>Completa el siguiente formulario</legend>
+
+
+                <input class="input-servicios" name="nombre" type="text" id="nombre-servicio"
+                    placeholder="INGRESA TU NOMBRE">
+
+                <div class="tooltip-contenido" id="ingresos-tooltip">
+                    <input class="input-servicios" name="ingresos" type="int" id="ingresos-servicio"
+                        placeholder="COLOCA TUS INGRESOS">
+
+                    <p class="concepto-parrafo">Ingrese el total o aproximado de cualquier ingreso que usted tenga formal o informal.</p>
+                </div>
+
+                <div class="tooltip-contenido" id="gastosf-tooltip">
+                    <input class="input-servicios" name="gastos-fijos" type="int" id="gastos-fijos-servicio"
+                        placeholder="COLOCA TUS GASTOS FIJOS">
+                    <p class="concepto-parrafo">Ingrese el total o aproximado de cualquier gasto fijo (luz, telefono, alquiler, etc) formal o informal.</p>
+                </div>
+
+                <div class="tooltip-contenido" id="gastosv-tooltip">
+                    <input class="input-servicios" name="gastos-variables" type="int" id="gastos-variables-servicio"
+                        placeholder="COLOCA TUS GASTOS VARIABLES">
+                    <p class="concepto-parrafo">Ingrese el total o aproximado de cualquier gasto variable (compras varias, gustos, salidas, etc)  formal o informal.</p>
+                </div>
+
+                <textarea name="comentario" cols="40" placeholder="Comentarios (opcional)" rows="10"
+                    style="color: #00FFCA;"></textarea>
+                <br>
+
+                <button class="boton-servicios">Enviar</button>
+            </div>
+        </section>
     </div>
-    
-    
+
     <script src="../script/script.js"></script>
 </body>
 <footer>
-    &copy; 2023 Acceso Financiero Group.    |   Política de cookies   |   Aviso legal
-Síguenos en Linkedin
+    &copy; 2023 Acceso Financiero Group. | Política de cookies | Aviso legal
+    Síguenos en Linkedin
 
-Tel. +34 915 716 594  •  hola@finout.es  •   Síguenos en LinkedIn
+    Tel. +34 915 716 594 • hola@finout.es • Síguenos en LinkedIn
 
-¿Hablamos? Contáctanos en hola@finout.es o reserva tu sesión de 15 minutos con uno de nuestros expertos aquí.   
+    ¿Hablamos? Contáctanos en hola@finout.es o reserva tu sesión de 15 minutos con uno de nuestros expertos aquí.
 </footer>
