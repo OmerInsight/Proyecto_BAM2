@@ -357,24 +357,58 @@ textarea {
     /*     transform: translate(0px, 45px) */
 }
 
-.titulo-servicio{
+.titulo-servicio {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-::placeholder{
+::placeholder {
     color: rgba(0, 255, 202, 0.5);
 }
 
+.mensaje {
+    display: none;
+    /* background-color: #eef3f6; */
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+
+
+}
+
+.mensaje-contenido {
+    display: flex;
+    background-color: rgba(75, 56, 105, 0.8);
+    border-radius: 7px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#texto-mensaje {
+    font-family: 'Wix Madefor Display', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: #00FFCA;
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+
 /* CONFIGURACIONES DE PAGINA "FOOTER"*/
-footer{
+footer {
     font-family: 'Wix Madefor Display', sans-serif;
     color: #A9E4D7;
     background-color: rgba(75, 56, 105, 0.8);
     padding: 3%;
     margin-top: 10%;
     text-align: center;
+
 }
 
-.elements-footer{
+.elements-footer {
     padding: 7px;
 }

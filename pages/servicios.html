@@ -14,8 +14,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Wix+Madefor+Display:wght@400;700&family=Work+Sans:ital,wght@0,100;0,500;1,100;1,300&display=swap"
         rel="stylesheet">
-    <!-- Importar la biblioteca Tooltipster -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tooltipster/dist/css/tooltipster.bundle.min.css">
+
+    <!-- configuracion de pavicon -->
+    <link rel="icon" type="image/png" href="../img/pavicon-32x.png">
+
 </head>
 
 <body style="background-image: url(../img/backgroun-body-service.jpg);">
@@ -37,6 +39,13 @@
         <!--Formulario de Servicio-->
         <h1 class="titulo-servicio">Conoce tu nivel Financiero</h1>
 
+        <section id="mensaje" class="mensaje">
+            <div class="mensaje-contenido">
+                <img id="imagen-mensaje" src="" alt="Imagen de mensaje">
+                <p id="texto-mensaje"></p>
+            </div>
+        </section>
+        
         <section class="formulario-servicio">
             <div class="form-tooltip">
                 <legend>Completa el siguiente formulario</legend>
@@ -56,7 +65,8 @@
                 <div class="tooltip-contenido" id="gastosf-tooltip">
                     <input class="input-servicios" name="gastos-fijos" type="int" id="gastos-fijos-servicio"
                         placeholder="COLOCA TUS GASTOS FIJOS">
-                    <p class="concepto-parrafo">Ingrese el total o aproximado de cualquier gasto fijo (luz, telefono,
+                    <p class="concepto-parrafo">Ingrese el total o aproximado de cualquier gasto fijo (luz,
+                        telefono,
                         alquiler, etc) formal o informal.</p>
                 </div>
 
@@ -76,19 +86,23 @@
         </section>
     </div>
 
+    <!-- CONFIGURACION DE CODIGO Js -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../script/script.js"></script>
+
 </body>
 <footer>
     <div class="container-footer">
         <div class="elements-footer">
             &copy; 2023 Acceso Financiero Group. | Política de cookies | Aviso legal
             Síguenos en Linkedin
-        </div >
+        </div>
         <div class="elements-footer">
             Tel. +5411990000 • hola@accesofinanciero.es • Síguenos en LinkedIn
-        </div >
+        </div>
         <div class="elements-footer">
-            ¿Hablamos? Contáctanos en hola@accesofinanciero.es o reserva tu sesión de 15 minutos con uno de nuestros expertos
+            ¿Hablamos? Contáctanos en hola@accesofinanciero.es o reserva tu sesión de 15 minutos con uno de nuestros
+            expertos
             aquí.
         </div>
     </div>
