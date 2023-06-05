@@ -1,13 +1,13 @@
 // CONFIGURACION DE BOTON RESPONSIVE:
+document.querySelector("button.button-menu-toggle")
+    .addEventListener("click", function () {
+        document.querySelector(".nav-links").
+            classList.toggle("nav-links-responsive");
+    });
 
 
 if (window.location.pathname.endsWith("index.html")) {
-    // CONFIGURACION DE BOTON RESPONSIVE:
-    document.querySelector("button.button-menu-toggle")
-        .addEventListener("click", function () {
-            document.querySelector(".nav-links").
-                classList.toggle("nav-links-responsive");
-        });
+
 
     // CONFIGURACION DE BOTON OCULTAR O MOSTRAR LECTURA
     let ocultar_texto_btn = document.getElementById("ocultar-texto-btn");

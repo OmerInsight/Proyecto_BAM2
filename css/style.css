@@ -172,7 +172,31 @@ a:hover {
         justify-content: center;
         padding: 20px;
     }
+
+    /* pagina Quienes Somos */
+
+    .q_somos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .integrantes {
+        margin-top: 5%;
+    }
+
+    .integrantes img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .integrantes p {
+        position: static;
+        margin-bottom: -15px ;
+        text-align: center;
+        margin-left: 55px;
+    }
 }
+
 
 /* CONFIGURACIONES DE TITULOS DE PARRAFOS */
 h3 h1 {
@@ -385,7 +409,7 @@ textarea {
     padding: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    
+
 }
 
 #texto-mensaje {
