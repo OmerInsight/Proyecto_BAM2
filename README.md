@@ -1,5 +1,7 @@
 # Acceso Financiero
-
+  
+https://omerinsight.github.io/Proyecto_BAM2/index.html  
+  
 Es un proyecto de html, CSS y Js con la finalidad de mostrar los conocimientos basicos adquiridos en un curso ofrecido por BA Multiplica. El proyecto o L idea de la página propiamente es la de un servicio web para dar a conocer una. arca financiera y además de ofrecer un pequeño embudo para la obtención de clientes, esto mediante un formulario que le indica al Posible cliente su situación financiera. 
 
 
